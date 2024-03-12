@@ -1,0 +1,90 @@
+.datatable {
+    height: 578px;
+    padding: 20px;
+}
+
+.datatable__title {
+    width: 100%;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.datatable__link {
+    text-decoration: none;
+    color: green;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid green;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.datatable__cell-with-img {
+    display: flex;
+    align-items: center;
+}
+
+.datatable__cell-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.datatable__cell-with-status {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.datatable__cell-with-status.active {
+    background-color: rgba(0, 128, 0, 0.05);
+    color: green;
+}
+
+.datatable__cell-with-status.pending {
+    background-color: rgba(255, 217, 0, 0.05);
+    color: goldenrod;
+}
+
+.datatable__cell-with-status.passive {
+    background-color: rgba(255, 0, 0, 0.05);
+    color: crimson;
+}
+
+.datatable__cell-action {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.datatable__view-button {
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: darkblue;
+    border: 1px solid rgba(0, 0, 139, 0.596);
+    cursor: pointer;
+}
+
+.datatable__delete-button {
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: crimson;
+    border: 1px solid rgba(220, 20, 60, 0.6);
+    cursor: pointer;
+}
+
+.cell-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.css-t89xny-MuiDataGrid-columnHeaderTitle {
+    font-weight: bold !important;
+}
